@@ -1,5 +1,5 @@
 baseurl      = "localhost"
-title        = "Hydrabyte"
+title        = "Hydrabyte | Bawmc.net"
 languageCode = "pt-br"
 theme = "hello-friend-ng"
 
@@ -21,16 +21,19 @@ identifier = "githib"
 name       = "Github"
 url        = "https://github.com/fluxmind-nhx/"
 
-[[menu.main]]
-identifier = "instagram"
-name       = "Instagram"
-url        = "https://www.instagram.com/gomes_ghx77?igsh=dHRzZTRlZnZ6dWkz"
 
 [params]
 # Subtitle for home
-homeSubtitle = "Hydrabyte"
+homeSubtitle = "“Atualize-se. Evolua. Expanda.”"
 defaultTheme = "dark" # Pode ser "light", "dark" ou "auto"
 disableThemeToggle = false # Habilita o botão de alternância de tema
+[[params.social]]
+  name = "discord"
+  url = "https://discord.gg/KygeWUvD"
+
+[[params.social]]
+  name = "instagram"
+  url = "https://www.instagram.com/gomes_ghx77?igsh=dHRzZTRlZnZ6dWkz"
 
 [taxonomies]
 category = "blog"
