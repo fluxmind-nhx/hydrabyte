@@ -1,3 +1,36 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl      = "localhost"
+title        = "Hydrabyte"
+languageCode = "pt-br"
+theme = "hello-friend-ng"
+paginate     = 2
+
+
+[languages.en.params.logo]
+logoText = "Hydra"
+logoHomeLink = "/"
+
+[[menu.main]]
+identifier = "posts"
+name       = "Posts"
+url        = "/posts"
+
+[[menu.main]]
+identifier = "githib"
+name       = "Github"
+url        = "https://github.com/fluxmind-nhx/"
+
+[[menu.main]]
+identifier = "instagram"
+name       = "Instagram"
+url        = "https://www.instagram.com/gomes_ghx77?igsh=dHRzZTRlZnZ6dWkz"
+
+[params]
+# Subtitle for home
+homeSubtitle = "Hydrabyte"
+defaultTheme = "dark" # Pode ser "light", "dark" ou "auto"
+disableThemeToggle = false # Habilita o botão de alternância de tema
+
+[taxonomies]
+category = "blog"
+tag      = "tags"
+series   = "series"
