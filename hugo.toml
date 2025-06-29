@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://hydrabyte.netlify.app/"
 title        = "Hydrabyte | Bawmc.net"
 languageCode = "pt-br"
 theme = "hello-friend-ng"
