@@ -2,7 +2,9 @@ baseurl      = "localhost"
 title        = "Hydrabyte"
 languageCode = "pt-br"
 theme = "hello-friend-ng"
-paginate     = 2
+
+[pagination]
+  pagerSize = 10
 
 
 [languages.en.params.logo]
