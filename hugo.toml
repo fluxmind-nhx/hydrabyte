@@ -8,7 +8,7 @@ theme = "hello-friend-ng"
 
 
 [languages.en.params.logo]
-logoText = "Hydra"
+logoText = "Hydrabyte"
 logoHomeLink = "/"
 
 [[menu.main]]
@@ -16,17 +16,18 @@ identifier = "posts"
 name       = "Posts"
 url        = "/posts"
 
-[[menu.main]]
-identifier = "githib"
-name       = "Github"
-url        = "https://github.com/fluxmind-nhx/"
-
-
 [params]
 # Subtitle for home
 homeSubtitle = "“Atualize-se. Evolua. Expanda.”"
 defaultTheme = "dark" # Pode ser "light", "dark" ou "auto"
 disableThemeToggle = false # Habilita o botão de alternância de tema
+
+
+
+
+
+
+
 [[params.social]]
   name = "discord"
   url = "https://discord.gg/KygeWUvD"
@@ -35,7 +36,13 @@ disableThemeToggle = false # Habilita o botão de alternância de tema
   name = "instagram"
   url = "https://www.instagram.com/gomes_ghx77?igsh=dHRzZTRlZnZ6dWkz"
 
+[[params.social]]
+  name = "github"
+  url = "https://github.com/fluxmind-nhx/"
+
 [taxonomies]
 category = "blog"
 tag      = "tags"
 series   = "series"
+
+

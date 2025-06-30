@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Light theme color (opcionalmente pode ignorar se não usa) */
+$light-background: #f5f5f5;
+$light-background-secondary: #e0e0e0;
+$light-background-header: #f0f0f0;
+$light-color: #1a1a1a;
+$light-color-variant: black;
+$light-color-secondary: #555;
+$light-border-color: #ccc;
+$light-table-color: #ddd;
+
+/* Dark theme colors — estilo neon cyberpunk */
+$dark-background: #0d0d0d;                // fundo principal
+$dark-background-secondary: #1a1a1a;      // fundo de destaque
+$dark-background-header: #141414;         // cabeçalho
+$dark-color: #f1fa8c;                     // texto principal (amarelo neon)
+$dark-color-variant: #bd93f9;             // variante de texto (roxo neon)
+$dark-color-secondary: #8be9fd;           // texto secundário (azul neon)
+$dark-border-color: #ff79c6;              // bordas (rosa neon)
+$dark-table-color: #44475a;               // tabelas (cinza escuro roxo)
+
+$media-size-phone: "(max-width: 684px)";
+$media-size-tablet: "(max-width: 900px)";
+
+/* Custom properties para JavaScript ou CSS moderno */
+:root {
+  --phoneWidth: (max-width: 684px);
+  --tabletWidth: (max-width: 900px);
+}
+
+/* Content */
+$max-width: 860px;
